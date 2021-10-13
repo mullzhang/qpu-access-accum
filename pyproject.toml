@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qpu-access-accum"
+version = "0.1.0"
+description = ""
+authors = ["mullzhang <mullzhang@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7,<3.10"
+gspread = "^4.0.1"
+oauth2client = "^4.1.3"
+dimod = "^0.10.7"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+dwave-ocean-sdk = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
