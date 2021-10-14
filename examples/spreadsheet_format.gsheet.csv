@@ -1,0 +1,2 @@
+timestamp,ip_address,name,token,solver,endpoint,num_variables,annealing_time,num_reads,time_limit,qpu_access_time,charge_time,run_time,qpu_sampling_time,qpu_anneal_time_per_sample,qpu_readout_time_per_sample,qpu_access_overhead_time,qpu_programming_time,qpu_delay_time_per_sample,total_post_processing_time,post_processing_overhead_time,problem_id
+2021-10-14 21:07:39:550278,123.456.7.89,Bob,DEV,DW_2000Q_6,https://cloud.dwavesys.com/sapi/,15,1,1000,,230883.5,,,219940,1,198.4,2711.5,10943.5,20.54,4051,4051,e956173b-a809-4cca-8530-862628fa3f82
