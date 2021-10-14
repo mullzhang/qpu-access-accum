@@ -6,7 +6,7 @@ import requests
 
 import dimod
 import gspread
-from oauth2client.service_account import ServiceAccountCredentials 
+from oauth2client.service_account import ServiceAccountCredentials
 
 logger = logging.getLogger(__name__)
 
@@ -79,6 +79,7 @@ class QPUAccessAccumComposite(dimod.ComposedSampler):
             except:
                 continue
             access_info['ip_address'] = str(response.text).strip('\n')
+            break
 
         column_numbers = {name: number for number, name in enumerate(self.worksheet.row_values(1))}
         insert_values = {}
